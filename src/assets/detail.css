@@ -1,0 +1,73 @@
+.div-top {
+  max-width: 1400px;
+  margin: 20px auto 5px;
+  padding: 20px;
+  min-height: 345px;
+}
+
+.div-name {
+  overflow: hidden;
+  box-shadow: 0px 0px 30px 6px #e2e2e2;
+  border-radius: 30px;
+  height: 300px;
+}
+
+.div-name-7 {
+  overflow: hidden;
+  box-shadow: 0px 0px 30px 6px #e2e2e2;
+  border-radius: 5px;
+}
+
+.div-date {
+  overflow: hidden;
+  box-shadow: 0px 0px 30px 6px #e2e2e2;
+}
+
+.rotate {
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.span_o {
+  top: -3rem;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.span_o_ri {
+  top: -0.8rem;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.span_xl {
+  top: -1rem;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  margin: 1px;
+}
+
+@media only screen and (max-width: 767px) {
+  .span_o_ri {
+    top: -0.5rem;
+  }
+}
+
+.zoom {
+  transition: all 0.5s linear;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
